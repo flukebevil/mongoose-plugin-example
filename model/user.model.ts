@@ -4,6 +4,7 @@ import { myCustomPlugin } from "../plugin/loading-time.plugin";
 interface IUser {
   name: string;
   email: string;
+  lastVisited: Date;
 }
 
 const userSchema = new Schema<IUser>({
